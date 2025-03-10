@@ -38,7 +38,7 @@ function Halver({
 }
 
 export function DoubleHalf(): React.JSX.Element {
-    const [dhValue, setDhValue] = useState<number>(10); // Set initial value to 10
+    const [dhValue, setDhValue] = useState<number>(10);
 
     return (
         <div>

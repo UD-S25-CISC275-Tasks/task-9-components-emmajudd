@@ -8,7 +8,6 @@ function ChangeColor({ colorIndex, setColorIndex }: {
     colorIndex: number;
     setColorIndex: (newIndex: number) => void; 
 }): React.JSX.Element {
-    //const [colorIndex, setColorIndex] = useState<number>(DEFAULT_COLOR_INDEX);
     return (
         <Button
             onClick={() => {
@@ -18,7 +17,7 @@ function ChangeColor({ colorIndex, setColorIndex }: {
             Next Color
         </Button>
     );
-}; 
+}
 
 function ColorPreview({ color }: { color: string }): React.JSX.Element {
     return (
