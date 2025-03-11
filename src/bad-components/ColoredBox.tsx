@@ -41,7 +41,7 @@ export function ColoredBox(): React.JSX.Element {
     return (
         <div>
             <h3>Colored Box</h3>
-            <span>The current color is: {COLORS[DEFAULT_COLOR_INDEX]}</span>
+            <span>The current color is: {COLORS[colorIndex]}</span>
             <div>
                 <ChangeColor colorIndex={colorIndex} setColorIndex={setColorIndex}></ChangeColor>
                 <ColorPreview color={COLORS[colorIndex]}></ColorPreview>
